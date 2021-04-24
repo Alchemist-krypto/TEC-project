@@ -1,0 +1,15 @@
+@import url(generales.css);
+@import url(header.css);
+@import url(normalize.css);
+@import url(main.css);
+@import url(footer.css);
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');

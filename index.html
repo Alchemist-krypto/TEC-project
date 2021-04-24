@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Alonso Artavia Ceciliano, José García Izaguirre" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="VMware tutorial" />
+    <link rel="stylesheet" type="text/css" href="css/bridge.css" />
+    <link rel="shortcut icon" href="/img/logos/vmwaresombra.svg">
+    <!-- Iconos -->
+    <script defer src="fontawesome/js/brands.js"></script>
+    <script defer src="fontawesome/js/solid.js"></script>
+    <script defer src="fontawesome/js/fontawesome.js"></script>
+    <!-- Programacion -->
+    <script type="text/javascript" src="">
+    </script>
+    <title>Tutorial VMware</title>
+</head>
+
+<body class="one">
+    <div id="cargar">
+        <div id="cgr">
+            <img src="img/logos/logoTec.svg" alt="">
+            <div class="preloader">
+            </div>
+        </div>
+    </div>
+    <div class="c">
+        <header>
+            <nav id="nave">
+                <section id="principal">
+                    <label id="line" class="bar" role="button" tabindex="0" aria-label="Menu">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                </label>
+                    <!-- <div class="prueba"> -->
+                    <div id="menu" class="desaparece">
+
+                        <img src="img/logos/logoTec.svg" id="logo_tec" alt="Logo del instituto tecnologico">
+                        <ul>
+                            <li>
+                                <a href="page_secundary/descarga_instalacion.html">Descarga e instación</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/navegador_web.html">Como utilizarlo desde un navegador web</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/acceder_laboratorio.html">Agregar y acceder al servidor de la escuela</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/maquinas_virtuales_programas_disponibles.html">Maquinas virtuales y aplicaciones disponibles</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/compartir_archivos.html">Compartir archvivos en la maquina fisica y virtual</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/guardar_archivos_maquina_fisica.html">Guardar archivos en la maquina fisica</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/maquina_almacenamiento.html">Guardar los archivos en la maquina de almacenamiento</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/perifericos_conectados.html">Uso de perifiricos conectados</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="page_secundary/seccion_maquina_virtual.html">Terminar sessión en una máquina virtual</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </section>
+                <section id="searchLocation" class="search">
+                    <input tabindex="0" type="search" placeholder="Buscar...">
+                    <button tabindex="0" aria-label="burcar"><i class="fas fa-search"></i></button>
+                </section>
+            </nav>
+            <div id="home">
+                <section tabindex="0" id=initial_text>
+                    <h1>VMWare<br/>Horizon</h1>
+                    <p class="textSlide" id="one">Guía para el uso del laboratorio virtual de la escuela de electrónica</p>
+                    <p class="textSlide" id="two">Aprendiendo a utilizar las funcionalidades de la plataforma VMWare</p>
+                    <p class="textSlide" id="two">Este es un tutorial exclusivamente para estudiantes del Tecnologico</p>
+                </section>
+                <section id=content_logo>
+                    <img id="logo" tabindex="0" src="img/logos/vmwaresombra.svg" alt="logo VMWare">
+                </section>
+            </div>
+            <div class="iniciar">
+                <a href="page_secundary/descarga_instalacion.html"><button>Empezar</button></a>
+                <a href="https://my.vmware.com/en/web/vmware/downloads/info/slug/desktop_end_user_computing/vmware_horizon_clients/horizon_8" target="_blank"><button id="descargar">Descargar</button></a>
+            </div>
+        </header>
+        <main id="content">
+            <section class="ContentPrin">
+                <h2>Acceda al laboratorio virtual</h2>
+                <p>La guía para acceder al laboratorio virtual del TEC, para lograr ingresar es necesario tener cuenta en la red de la escuela de electronica</p>
+                <video controls autoplay muted>
+              <source src="videos/descarga_intalacion.mp4" type="video/MP4">
+            </video>
+            </section>
+            <section class="ContentPrin">
+                <h2>Como obtener acceso a la red</h2>
+                <p>Para obtener acceso a una cuenta se debe tramitar con el operador, el cual se encuentra en el piso 2 en el aula 205.<br/> Para aquellos que no sean estudiantes deberán comunicarse al administrador Ronalt Soto enviando un correo a
+                    <a href="mailto:rsoto@itcr.ac.cr">rsoto@itcr.ac.cr</a></p>
+            </section>
+            <hr/>
+            <section id="cuadroBenefi">
+                <h2 id="titleBene">Beneficios al usar la plataforma</h2>
+                <section id="beneficios">
+                    <article class="bene ">
+                        <button class="boton">
+                        <img class="img" src="img/icons/awr.png" alt="Logo AWR">
+                        <h3>AWR Environmental</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>AWR es un sistema de software de automatización de diseño electrónico</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class="bene">
+                        <input type="radio" name="acc" class="check" id="acc-1">
+                        <button class="boton">
+                        <img class="img " src="img/icons/fs.png " alt="Logo Focusky ">
+                        <h3>Focusky</h3>
+                    </button>
+                        <!-- </label> -->
+                        <div class="info">
+                            <hr/>
+                            <p>Focusky es un programa para Windows y Mac que te ayuda a crear presentaciones online en formato HTML5 para que puedas llevarlas contigo y, en especial, tengas la posibilidad de subirlas a tu propia página web cómodamente o
+                                incluso a la nube de la propia herramienta.</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class="bene">
+                        <input type="radio" name="acc" class="check" id="acc-2">
+                        <button class="boton">
+                        <img class="img" src="img/icons/text.png" alt="Logo TeXworks">
+                        <h3>TeXworks</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Es un software libre distribuido bajo la licencia GPL para escribir documentos de texto.</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class="bene">
+                        <input type="radio" name="acc" class="check" id="acc-3">
+                        <button class="boton">
+                        <img class="img " src="img/icons/exel.png " alt="Logo Exel ">
+                        <h3>Excel</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Cuenta con cálculo, herramientas gráficas, tablas calculares y un lenguaje de programación macro llamado Visual Basic para aplicaciones</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class=" bene box ">
+                        <input type="radio" name="acc" class="check" id="acc-4">
+                        <button class="boton">
+                        <img class="img " src="img/icons/minitap.png " alt="Logo minitab ">
+                        <h3>Minitab 18</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Funciona para ejecutar funciones estadísticas básicas y avanzadas.</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class=" bene box ">
+                        <input type="radio" name="acc" class="check" id="acc-5">
+                        <button class="boton">
+                        <img class="img " src="img/icons/google.png ">
+                        <h3>Google Chrome</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Navegador web de código cerrado​​ desarrollado por Google</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class=" bene box ">
+                        <input type="radio" name="acc" class="check" id="acc-6">
+                        <button class="boton">
+                        <img class="img " src="img/icons/system.png " alt="Logo de Advance Desing System ">
+                        <h3>Advanced Desing System</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Advanced Design System es un sistema de software de automatización de diseño electrónico</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class=" bene box ">
+                        <input type="radio" name="acc" class="check" id="acc-7">
+                        <button class="boton">
+                        <img class="img " src="img/icons/eagle.png " alt="Logo de eagle ">
+                        <h3>Eagle 7.1</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Aplicación de automatización de diseño electrónico (EDA) programable con captura de esquemas</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                    <article class=" bene box ">
+                        <input type="radio" name="acc" class="check" id="acc-8">
+                        <button class="boton">
+                        <img class="img " src="img/icons/em.png " alt="logo EMPro 2019 ">
+                        <h3>EMPro 2019 (64-bit GUI)</h3>
+                    </button>
+                        <div class="info">
+                            <hr/>
+                            <p>Herramienta para la evaluación estandarizada de los instrumentos de resultados centrados en los pacientes (PRO - Patient Reported Outcomes), desarrollada de manera original por el equipo</p>
+                            <button class="cerraNtn" id="cerrar">Cerrar</button>
+                        </div>
+                    </article>
+                </section>
+                <button class="vermas" id="vermas1">Ver más</button>
+                <button class="vermas" id="vermenos2">Ver menos</button>
+                <a href="page_secundary/aplication.html"><button class="vermas" id="vertodo3">Ver todo</button></a>
+            </section>
+        </main>
+        <footer>
+            <h2 class="acerca">
+                <div>
+                    <i class="fas fa-info-circle"></i>
+                    <a href="page_secundary/acerca_horizon.html">Acerca de Horizon</a>
+                </div>
+                <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </h2>
+            <hr/>
+            <h2 class="acerca two">
+                <div>
+                    <i class="fas fa-question-circle"></i>
+                    <a href="page_secundary/preguntas.php">Ayuda</a>
+                </div>
+                <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </h2>
+            <hr/>
+            <section>
+                <h2 class="acerca tree">
+                    <div>
+                        <i class="fas fa-envelope-open"></i>
+                        <a href="page_secundary/contact.html">Contactos</a>
+                    </div>
+                    <a href="#">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </h2>
+                <hr/>
+                <h3>Derechos reservados<br/>
+                    <p id="date"></p>
+                </h3>
+            </section>
+
+        </footer>
+    </div>
+    <script type="text/javascript " src="js/menu.js "></script>
+    <script type="text/javascript " src="js/acordeones.js "></script>
+    <script type="text/javascript" src="js/masinfo.js"></script>
+    <script type="text/javascript" src="js/date.js"></script>
+    <script type="text/javascript" src="js/load.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+</body>
+
+</html>

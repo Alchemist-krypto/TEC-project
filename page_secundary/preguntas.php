@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alonso Artavia Ceciliano, José García Izaguirre" />
+    <meta name="keywords" content="descargas, instalación" />
+    <meta name="description" content="Aquí se muestran las pasos a seguir para descargar e instalar correctamente la aplicación de VMware Horizon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="../fontawesome/js/brands.js"></script>
+    <script defer src="../fontawesome/js/solid.js"></script>
+    <script defer src="../fontawesome/js/fontawesome.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css-secundary/bridge.css" />
+    <title>Descarga e instalación</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nave">
+            <section id="principal">
+                <label id="line" class="bar" role="button" tabindex="0" aria-label="Menu">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                </label>
+                <!-- <div class="prueba"> -->
+                <div id="menu" class="desaparece">
+                    <a id="logo_tec" href="../index.html">
+                        <img src="../img/logos/logoTec.svg" alt="Logo del instituto tecnologico">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="../page_secundary/descarga_instalacion.html">Descarga e instación</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/navegador_web.html">Como utilizarlo desde un navegador web</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/acceder_laboratorio.html">Agregar y acceder al servidor de la escuela</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/maquinas_virtuales_programas_disponibles.html">Maquinas virtuales y aplicaciones disponibles</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/compartir_archivos.html">Compartir archvivos en la maquina fisica y virtual</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/guardar_archivos_maquina_fisica.html">Guardar archivos en la maquina fisica</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/maquina_almacenamiento.html">Guardar los archivos en la maquina de almacenamiento</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/perifericos_conectados.html">Uso de perifiricos conectados</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/seccion_maquina_virtual.html">Terminar sessión en una máquina virtual</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </section>
+            <section id="searchLocation" class="search">
+                <input tabindex="0" type="search" placeholder="Buscar...">
+                <i class="fas fa-search"></i>
+            </section>
+            <div class="vmw">
+            <a href="../index.html">
+                    <img src="../img/logos/vmwaresombra.svg">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="ContentPrin">
+
+        </section>
+    </main>
+    <footer>
+        <h2 class="acerca">
+            <div>
+                <i class="fas fa-info-circle"></i>
+                <a href="# ">Acerca de Horizon</a>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+        </h2>
+        <hr/>
+        <h2 class="acerca two">
+            <div>
+                <i class="fas fa-question-circle"></i>
+                <a href="# ">Ayuda</a>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+        </h2>
+        <hr/>
+        <section>
+            <h2 class="acerca tree">
+                <div>
+                    <i class="fas fa-envelope-open"></i>
+                    <a href="# ">Contactos</a>
+                </div>
+                <i class="fas fa-chevron-right"></i>
+            </h2>
+            <hr/>
+            <h3>Derechos reservados<br/>
+                <p id="date"></p>
+            </h3>
+        </section>
+
+    </footer>
+    <script type="text/javascript" src="../js-secundary/date.js"></script>
+    <script type="text/javascript" src="../js-secundary/menu.js"></script>
+</body>
+
+</html>

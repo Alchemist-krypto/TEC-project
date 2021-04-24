@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alonso Artavia Ceciliano, José García Izaguirre" />
+    <meta name="keywords" content="descargas, instalación" />
+    <meta name="description" content="Aquí se muestran las pasos a seguir para descargar e instalar correctamente la aplicación de VMware Horizon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="../fontawesome/js/brands.js"></script>
+    <script defer src="../fontawesome/js/solid.js"></script>
+    <script defer src="../fontawesome/js/fontawesome.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css-secundary/bridge.css" />
+    <link rel="shortcut icon" href="../img/logos/vmwaresombra.svg">
+    <title>Guardar los archivos en una unidad de almacenamiento con autorización.</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nave">
+            <section id="principal">
+                <label id="line" class="bar" role="button" tabindex="0" aria-label="Menu">
+                    <hr/>
+                    <hr/>
+                    <hr/>
+                </label>
+                <!-- <div class="prueba"> -->
+                <div id="menu" class="desaparece">
+                    <a id="logo_tec" href="../index.html">
+                        <img src="../img/logos/logoTec.svg" alt="Logo del instituto tecnologico">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="../page_secundary/descarga_instalacion.html">Descarga e instación</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/navegador_web.html">Como utilizarlo desde un navegador web</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/acceder_laboratorio.html">Agregar y acceder al servidor de la escuela</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/maquinas_virtuales_programas_disponibles.html">Maquinas virtuales y aplicaciones disponibles</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/compartir_archivos.html">Compartir archvivos en la maquina fisica y virtual</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/guardar_archivos_maquina_fisica.html">Guardar archivos en la maquina fisica</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/maquina_almacenamiento.html">Guardar los archivos en la maquina de almacenamiento</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/perifericos_conectados.html">Uso de perifiricos conectados</a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="../page_secundary/seccion_maquina_virtual.html">Terminar sessión en una máquina virtual</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </section>
+            <section id="searchLocation" class="search">
+                <input tabindex="0" type="search" placeholder="Buscar...">
+                <i class="fas fa-search"></i>
+            </section>
+            <div class="vmw">
+                <a href="../index.html">
+                    <img src="../img/logos/vmwaresombra.svg">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="ContentPrin">
+            <h1>Guardar los archivos en una unidad de almacenamiento con autorización.</h1>
+            <p>Se pueden guardar archivos de algún curso en una unidad de almacenamiento, se le mostrará como hacer este proceso en los sistemas operativos Windows y Linux.</p>
+            <p>A continuación se le muestran dos opciones, por favor seleccione el sistema operativo que utiliza.</p>
+        </section>
+        <section class="ContentPrinTwo">
+            <button class="acordeon c1 ac1">Windows</button>
+            <section class="info-panel">
+                <p>Escribimos la dirección IP \\172.21.33.32 en la barra superior, donde se encuentra el enlace de las carpetas, al acceder nos aparecera una serie de carpetas</p>
+                <p>Se asignan permisos para que un usuario o grupo de usuarios accedan a una carpeta personalizada. Los archivos aquí guardados se encuentran en una unidad de almacenamiento.
+                </p>
+                <p>Generalmente, aquellos que requieren de estos permisos es debido a que necesitan guardar datos de un programa que se encuentra ejecutando sin parar, por lo que la máquina virtual necesita un lugar interno en donde almacenarlos. También,
+                    guardar archivos en la nube proporciona versatilidad, de modo que los archivos no se tengan que transportar en dispositivos de almacenamiento portátil.</p>
+            </section>
+
+            <button class="acordeon c2 ac2">Linux</button>
+            <section class="info-panel">
+                <p>Una vez iniciada la sesión en la máquina virtual, buscamos y seleccionamos el buscador de archivos y colocamos la siguente ruta: Filesystem > mnt > vol_NFS_Zener > WD_ESPEC.
+                </p>
+                <p>Luego de haber realizado el paso anterior se visualizarán diferentes carpetas con diferentes nombres y con un candado, esto sucede porque no tiene acceso a esas carpetas, ya que pertenecen a otros usuarios y de igual forma cuando usted
+                    cree su propia carpeta solo usted tendrá acceso a ella.</p>
+                <p>Recuerde que el almacenamineto de las máquinas virtuales es limitado, por lo tanto tenga en cuenta que este procedimiento es solo cuando es totalmente necesario o porque algún curso lo requiera.</p>
+            </section>
+        </section>
+        <section class="ContentPrin">
+            <h1>Guardar los archivos en una unidad de almacenamiento con autorización(proyectos de investigación).</h1>
+            <p>Para guardar archivos de proyectos de investigación en unaunidad de almacenamiento, se requiere de autorización, la cual se le solicita a Ronald Soto quien es el encargado.</p>
+            <p>El procedimiento para realizar este proceso en Windows es el siguiente, debe dirigirse al explorador de archivos y digitar la siguiente dirección IP: \\172.21.33.32 </p>
+            <p>Se asignan permisos para que un usuario o grupo de usuarios accedan a una carpeta personalizada. Los archivos aquí guardados se encuentran en una unidad de almacenamiento.</p>
+            <p>Generalmente, aquellos que requieren de estos permisos es debido a que necesitan guardar datos de un programa que se encuentra ejecutando sin parar, por lo que la máquina virtual necesita un lugar interno en donde almacenarlos.</p>
+            <p>También, guardar archivos en la nube proporciona versatilidad, de modo que los archivos no se tengan que transportar en dispositivos de almacenamiento portátil.</p>
+            <p>En el siguiente video se le mostrará como debe de realizar el proceso anteriormente mencionado.</p>
+            <video>
+                <source src="../videos/descarga_intalacion.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+    <footer>
+        <h2 class="acerca">
+            <div>
+                <i class="fas fa-info-circle"></i>
+                <a href="# ">Acerca de Horizon</a>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+        </h2>
+        <hr/>
+        <h2 class="acerca two">
+            <div>
+                <i class="fas fa-question-circle"></i>
+                <a href="# ">Ayuda</a>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+        </h2>
+        <hr/>
+        <section>
+            <h2 class="acerca tree">
+                <div>
+                    <i class="fas fa-envelope-open"></i>
+                    <a href="# ">Contactos</a>
+                </div>
+                <i class="fas fa-chevron-right"></i>
+            </h2>
+            <hr/>
+            <h3>Derechos reservados<br/>
+                <p id="date"></p>
+            </h3>
+        </section>
+
+    </footer>
+    <script type="text/javascript" src="../js-secundary/date.js"></script>
+    <script type="text/javascript" src="../js-secundary/menu.js"></script>
+    <script type="text/javascript" src="../js-secundary/acc.js"></script>
+</body>
+
+</html>

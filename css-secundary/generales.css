@@ -1,0 +1,36 @@
+/*-----------------Acordeones------------------*/
+
+.acordeon {
+    background-color: #eee;
+    color: #375D81;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.ContentPrinTwo button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2rem;
+    color: #11E3FA;
+}
+
+.info-panel {
+    background-color: #ABBAD9;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #183152;
+}
+
+.c1 {
+    background-color: #758EBF;
+}
+
+.c2 {
+    background-color: #6585BA;
+}

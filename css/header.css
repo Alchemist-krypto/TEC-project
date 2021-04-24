@@ -1,0 +1,374 @@
+        /******************Navegacion***************************/
+        
+        #nave {
+            position: fixed;
+            top: 0;
+            display: grid;
+            grid-template-columns: 40% 60%;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            height: 70px;
+            transition: 0.3s ease;
+            background: transparent;
+            z-index: 100;
+        }
+        
+        .bar {
+            margin-left: 20px;
+            width: 40px;
+            z-index: 2;
+            padding: 2%;
+            /* outline: none; */
+        }
+        
+        .barOne {
+            margin-left: 20px;
+            width: 40px;
+            z-index: 2;
+            padding: 2%;
+            /* outline: none; */
+        }
+        
+        .bar>hr {
+            border: 1.5px solid #344F9E;
+            background-color: #344F9E;
+            border-radius: 10px;
+            justify-self: end;
+            transition: 0.2s linear;
+        }
+        
+        .barOne>hr {
+            background-color: white;
+            border: 1.5px solid white;
+            border-radius: 10px;
+            justify-self: end;
+            transition: 0.2s linear;
+        }
+        
+        .search {
+            justify-self: flex-end;
+        }
+        
+        .search input[type="search"] {
+            border: none;
+            width: 70%;
+            font-size: 1.5em;
+            color: #2D4D9B;
+            /* outline: none; */
+            font-family: 'Heebo', sans-serif;
+            border-bottom: 2px solid hsl(225, 19%, 48%);
+            background: transparent;
+            font-size: 1.2em;
+            padding: 6px 3px;
+            z-index: 1;
+        }
+        
+        .search input[type="search"]::placeholder {
+            color: #2D4D9B;
+        }
+        
+        .search input[type="search"]:focus {
+            color: #6588df;
+            transition: 0.35s ease;
+        }
+        
+        .search input[type="search"]:focus::-webkit-input-placeholder {
+            transition: opacity 0.45s ease;
+            opacity: 0;
+        }
+        
+        .search input[type="search"]::-webkit-search-cancel-button {
+            display: none;
+        }
+        
+        .search button {
+            padding: 5px 3px;
+            border: none;
+            width: 20%;
+            border-bottom: 2px solid hsl(225, 19%, 48%);
+            background: transparent;
+            position: relative;
+            right: 7px;
+            /* outline: none; */
+        }
+        
+        .fa-search {
+            color: hsl(225, 19%, 48%);
+            z-index: 0;
+        }
+        /* Cambiando los diseños al hacer scroll */
+        
+        .searchOne {
+            justify-self: flex-end;
+        }
+        
+        .searchOne input[type="search"] {
+            border: none;
+            width: 70%;
+            font-size: 1.5em;
+            color: white;
+            /* outline: none; */
+            font-family: 'Heebo', sans-serif;
+            border-bottom: 2px solid white;
+            background: transparent;
+            font-size: 1.2em;
+            padding: 6px 3px;
+            z-index: 1;
+        }
+        
+        .searchOne input[type="search"]::placeholder {
+            color: white;
+        }
+        
+        .searchOne input[type="search"]:focus {
+            color: #9FD7EC;
+            transition: 0.35s ease;
+        }
+        
+        .searchOne input[type="search"]:focus::-webkit-input-placeholder {
+            transition: opacity 0.45s ease;
+            opacity: 0;
+        }
+        
+        .searchOne input[type="search"]::-webkit-search-cancel-button {
+            display: none;
+        }
+        
+        .searchOne button {
+            padding: 5px 3px;
+            border: none;
+            width: 20%;
+            border-bottom: 2px solid white;
+            background: transparent;
+            position: relative;
+            right: 7px;
+            /* outline: none; */
+        }
+        
+        .searchOne .fa-search {
+            color: white;
+            z-index: 0;
+        }
+        /***************************************LOGO*************************/
+        
+        #home {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            align-items: center;
+            justify-items: center;
+            padding-top: 13%;
+        }
+        
+        #initial_text {
+            color: #2D4C9B;
+            /* outline: none; */
+        }
+        
+        #content_logo {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        #logo {
+            width: 80%;
+            margin: 20px;
+            /* outline: none; */
+        }
+        
+        #home>section:nth-of-type(1)>h1 {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5rem;
+        }
+        
+        #home>section:nth-of-type(1)>p {
+            margin-left: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            line-height: 35px;
+        }
+        
+        .iniciar {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        
+        .iniciar a {
+            width: 80%;
+            margin: 10px auto;
+            font-family: 'Heebo', sans-serif;
+        }
+        
+        .iniciar a button {
+            padding: 15px;
+            background: transparent;
+            border: 2px solid hsl(225, 19%, 48%);
+            border-radius: 5px;
+            color: hsl(225, 19%, 48%);
+            font-size: 1.3rem;
+        }
+        
+        .iniciar a #descargar {
+            background: hsl(225, 19%, 48%);
+            color: white;
+        }
+        
+        .iniciar a button:active {
+            background: hsl(225, 19%, 48%);
+            color: white;
+        }
+        /*****************************animacion de menu movile**********************************/
+        
+        .desaparece {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background: #758EBF;
+            height: 100%;
+            overflow: hidden;
+            transform: translateX(-100%);
+            transition: 0.2s linear;
+        }
+        
+        .desaparece.aparece {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            animation: salir 0.5s linear ease paused;
+            transform: translateX(0%);
+        }
+        
+        .one {
+            overflow: scroll;
+        }
+        
+        .one.two {
+            overflow: hidden;
+        }
+        
+        .bar.menu>hr {
+            background-color: white;
+            border-color: white;
+            transition: 0.3s ease;
+        }
+        
+        .bar.menu>hr:nth-last-of-type(1) {
+            position: relative;
+            transform: rotate(45deg) translate(-20%, 0%);
+        }
+        
+        .bar.menu>hr:nth-last-of-type(2) {
+            display: none;
+        }
+        
+        .bar.menu>hr:nth-last-of-type(3) {
+            position: relative;
+            transform: rotate(-45deg) translate(-18.5%, 0%);
+        }
+        /* Estas clases son añadidas cuando se hace scroll para animar el menu*/
+        
+        .barOne.menu>hr {
+            background-color: white;
+            border-color: white;
+            transition: 0.3s ease;
+        }
+        
+        .barOne.menu>hr:nth-last-of-type(1) {
+            position: relative;
+            transform: rotate(45deg) translate(-20%, 0%);
+        }
+        
+        .barOne.menu>hr:nth-last-of-type(2) {
+            display: none;
+        }
+        
+        .barOne.menu>hr:nth-last-of-type(3) {
+            position: relative;
+            transform: rotate(-45deg) translate(-18.5%, 0%);
+        }
+        /*********************Menu**************************/
+        
+        #principal {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        #menu {
+            display: grid;
+            grid-template-rows: auto, auto;
+        }
+        
+        #logo_tec {
+            width: 50%;
+            display: flex;
+            justify-self: end;
+            margin: 10px 10px 0px 0px;
+        }
+        
+        #menu ul {
+            padding: 0;
+            margin: 40px auto;
+            height: 100vh;
+        }
+        
+        #menu ul hr {
+            margin: 16px 30px;
+            border: 0.1px solid #9AB3DE;
+        }
+        
+        #menu li a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+            font-family: 'Heebo', sans-serif;
+        }
+        
+        #menu li {
+            margin: auto;
+            list-style: none;
+            text-align: center;
+            transform: translateY();
+            height: 4.5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        video {
+            z-index: 0;
+        }
+        
+        source {
+            z-index: 0;
+        }
+        
+        @media only screen and (min-width: 550px) and (max-width: 750px) {
+            .iniciar a {
+                width: 60%;
+            }
+            #logo {
+                width: 60%;
+                margin: 20px;
+                /* outline: none; */
+            }
+        }
+        /* Adaptacion para tablec */
+        
+        @media only screen and (min-width: 750px) and (max-width: 950px) {
+            .iniciar {
+                display: grid;
+                grid-template: auto / 1fr 1fr;
+                width: 100%;
+                flex-flow: row column;
+                justify-content: center;
+                margin: 20px auto;
+            }
+        }
